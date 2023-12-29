@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i style="background-color: white;" class="fas" onclick="closemenu()">y</i>
+                </ul>
+                <i style="background-color:white;"  class="fas" onclick="openmenu()"><img src="/list.svg" alt="">x</i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span> Hari</span> <br> Sahoo from India</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- about -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Img/IMG20220905100411.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Rem eligendi earum provident aliquam voluptatum, 
+                        enim blanditiis, sunt ad recusandae est eum? Porro, maxime 
+                        consectetur. Aliquid dicta autem quod corrupti recusandae?</p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Web Site</span><br>Designing Web Site</li>
+                                <li><span>Full Stack Dev.</span><br>Designing Front and Back Site</li>
+                                <li><span>UX/UI</span><br>Web/App Designing</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul> 
+                                <li><span>Dec2022 - Current</span><br>Customer Service at NOVAC </li>
+                                <li><span>Feb2022 - Nov2022</span><br>Help Desk Exicutive at AGS </li>
+                                <li><span>Sep2021 - Feb2022</span><br>Branch Admin at Kesineni Cargo.</li>
+                                <li><span>Jun2021 - Sep2021</span><br>Computer Opareter at Progreen Biotec </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2023 - Current</span><br>Master of Full stack Web devlopmeent from IT Vedant</li>
+                                <li><span>2017-2020</span><br>Economics from North Odisha Univarsity</li>
+                                <li><span>2015-2017</span><br>I.A from U.N collage</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="Img/code-slash.svg" alt="">
+                    <h2>Web Design</h2>
+                    <p>The public is more familiar with bad design than good design. It is, 
+                        in effect, conditioned to prefer bad design, because that is what it lives with. 
+                        The new becomes threatening, the old reassuring.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img src="Img/google-play.svg" alt="">
+                    <h2>App Design</h2>
+                    <p>Mobile is becoming not only the new digital hub, but also the bridge to the physical world. 
+                        That’s why mobile will affect more than just your digital operations — it will transform your entire business.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img src="Img/brush.svg" alt="">
+                    <h2>UI/UX Design</h2>
+                    <p>Design is the fundamental soul of a man-made creation that ends up expressing itself in 
+                        successive outer layers of the product or service</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+       <div class="container">
+           <h1 class="sub-title">My Work</h1>
+           <div class="work-list">
+            <div class="work">
+                <img src="Img/images1.jpeg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p></p>
+                    <a href=""></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Img/image2.jpeg" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p></p>
+                    <a href=""></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Img/images3.jpeg" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p></p>
+                    <a href=""></a>
+                </div>
+            </div>
+           </div>
+           <a href="#" class="btn">See more</a>
+       </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><img src="Img/envelope.svg" alt="">sahoohari222@gmail.com</p>
+                    <p><img src="Img/telephone.svg" alt="">9348933134</p>
+                    <div class="social-icon">
+                        <a href=""><img src="Img/facebook.svg" alt=""></a>
+                        <a href=""><img src="Img/instagram.svg" alt=""></a>
+                        <a href=""><img src="Img/linkedin.svg" alt=""></a>
+                        <a href=""><img src="Img/whatsapp.svg" alt=""></a>
+                    </div>
+                    <a href="Img/New Cv.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+                <div class="contact-right"></div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <img src="Img/c-circle-fill.svg" alt=""> Hari.</p>
+        </div>
+    </div>
+ 
+<script>
+   
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+
+   function opentab(tabname) {
+    for (tablink of tablinks) {
+        tablink.classList.remove("active-link");  
+    }
+    for (tablink of tablinks) {
+        tablink.classList.remove("active-tab");  
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+
+   }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
